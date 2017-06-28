@@ -5,6 +5,6 @@ import { NotfoundComponent } from "./notfound/notfound.component";
 const routes = [
     { path: "", component: HomeComponent },
     { path: "members", component: MembersComponent },
-    { path: "**", component: NotfoundComponent}
+    { path: "**", component: NotfoundComponent }
 ];
 export const AppRouting = RouterModule.forRoot(routes);

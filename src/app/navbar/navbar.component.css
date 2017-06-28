@@ -3,3 +3,17 @@
     border-radius: 0px;
     margin: 0;
 }
+
+/*override bootstrap navbar classes styles*/
+.navbar-brand {
+    padding: 0;
+}
+.navbar-header {
+	height: 100px;
+}
+.navbar-right {
+	margin-top: 2rem;
+}
+.navbar-toggle {
+	margin-top: 3.5rem;
+}
