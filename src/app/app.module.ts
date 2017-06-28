@@ -9,13 +9,15 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AppRouting } from "app/approutes";
 import { MembersComponent } from './members/members.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    MembersComponent
+    MembersComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
