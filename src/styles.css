@@ -12,3 +12,65 @@ h1, h2, h3, h4, h5, h6 {
 .relative {
     position: relative;
 }
+.inline-block {
+    display: inline-block;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+@media (max-width: 768px) {
+    .flex {
+        display: block;
+    }
+}
+
+.section-title {
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.text-green {
+    color: #18bc9c;
+}
+
+.bkg-green {
+    background-color: #18bc9c;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.icon-2x {
+    font-size: 2em;
+}
+
+.icon-3x {
+    font-size: 3em;
+}
+
+.margin-none {
+    margin: 0;
+}
+
+.margin-v {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.margin-v2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.margin-h {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.margin-h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
