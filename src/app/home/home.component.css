@@ -8,4 +8,16 @@
     text-align: center;
     background: #18bc9c;
     color: white;
+    margin-bottom: 0;
+}
+.home-hero {
+    background-size: cover;
+    background-position-x: 50%;
+}
+.overlay {
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }

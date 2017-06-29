@@ -9,11 +9,11 @@
     padding: 0;
 }
 .navbar-header {
-	height: 100px;
+	height: 79px;
 }
 .navbar-right {
-	margin-top: 2rem;
+	margin-top: 0.7rem;
 }
 .navbar-toggle {
-	margin-top: 3.5rem;
+	margin-top: 2rem;
 }
