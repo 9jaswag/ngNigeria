@@ -14,8 +14,13 @@
     background-size: cover;
     background-position-x: 50%;
 }
+.home-hero:hover {
+    transform: scale(2);
+}
+
+/*home page hero green overlay*/
 .overlay {
-    opacity: 0.2;
+    opacity: 0.1;
     position: absolute;
     top: 0;
     left: 0;
