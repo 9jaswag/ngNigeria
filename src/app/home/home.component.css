@@ -1,18 +1,4 @@
-/*style for bootstrap jumbotron class*/
-.jumbotron {
-    height: 75vh;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: #18bc9c;
-    color: white;
-    margin-bottom: 0;
-}
-
-/* new styles */
-
+/* homepage hero image*/
 .home-hero {
   width: 100%;
   height: 75vh; 
@@ -56,4 +42,27 @@
   .after-overlay {
     left: 11vw;    
   }
+}
+
+/* call to action */
+.cta {
+  background-image: url('../../assets/images/ngngHero-2.jpg');
+  height: 50vh;
+  width: 100%;  
+  background-size: cover;
+  background-position-y: 45%;
+  position: absolute;
+}
+
+/* call to action green overlay */
+.cta-overlay {
+  height: 50vh;
+  background: #18bc9c;
+  opacity: 0.5;
+}
+.after-cta-overlay {
+  text-align: center;
+  position: relative;
+  top: -35vh;
+  color: white;
 }
